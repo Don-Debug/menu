@@ -15,9 +15,9 @@ export default function HomePage() {
             height={1000}
           />
         </div>
-        <div className="flex justify-center items-center sm:h-[80%] h-[50%] px-[2rem]">
+        <div className="flex md:flex-row flex-col justify-center items-center sm:h-[80%] h-[80vh] px-[2rem]">
           <div className="md:w-[50%] w-[100%] md:mt-0 mt-[5rem]">
-            <h1 className="sm:text-[2.5rem] text-[1.8rem] font-bold">
+            <h1 className="sm:text-[2.5rem] text-[2rem] font-bold">
               This is the time for you to have your own digital menu
             </h1>
           </div>
