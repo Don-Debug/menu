@@ -8,8 +8,8 @@ export default function About() {
           </h1>
           <p className="md:p-8 p-0">
             Welcome to [Your Website Name], your ultimate destination for
-            digital menus designed specifically for bars and restaurants. We
-            understand the importance of creating an exceptional dining
+            digital menus designed specifically for bar&apos;s and restaurants.
+            We understand the importance of creating an exceptional dining
             experience, and our innovative platform empowers you to take your
             menu presentation to the next level. At [Your Website Name], we are
             passionate about helping establishments like yours showcase their

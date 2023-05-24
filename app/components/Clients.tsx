@@ -40,7 +40,7 @@ export default function Clients() {
                       alt="profile"
                       width={1000}
                       height={1000}
-                      className="w-16 h-16 object-cover rounded-full shadow-2xl"
+                      className="w-16 h-16 object-cover rounded-full pointer-events-none"
                     />
                     <div className="flex flex-col">
                       <h1 className="text-[1.5rem] font-bold text-[#cdcdcd]">
@@ -67,7 +67,7 @@ export default function Clients() {
                       alt="profile"
                       width={1000}
                       height={1000}
-                      className="w-16 h-16 object-cover rounded-full shadow-2xl"
+                      className="w-16 h-16 object-cover rounded-full pointer-events-none"
                     />
                     <div className="flex flex-col">
                       <h1 className="text-[1.5rem] font-bold text-[#cdcdcd]">
@@ -94,7 +94,7 @@ export default function Clients() {
                       alt="profile"
                       width={1000}
                       height={1000}
-                      className="w-16 h-16 object-cover rounded-full shadow-2xl"
+                      className="w-16 h-16 object-cover rounded-full pointer-events-none"
                     />
                     <div className="flex flex-col">
                       <h1 className="text-[1.5rem] font-bold text-[#cdcdcd]">

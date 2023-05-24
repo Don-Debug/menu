@@ -28,47 +28,26 @@ html::-webkit-scrollbar {
 
 body {
   color: #f5f5f7;
-  background: rgb(53, 53, 60);
-  background: -moz-radial-gradient(
-    circle,
-    rgba(53, 53, 60, 1) 0%,
-    rgba(29, 29, 31, 1) 100%
-  );
-  background: -webkit-radial-gradient(
-    circle,
-    rgba(53, 53, 60, 1) 0%,
-    rgba(29, 29, 31, 1) 100%
-  );
-  background: radial-gradient(
-    circle,
-    rgba(53, 53, 60, 1) 0%,
-    rgba(29, 29, 31, 1) 100%
-  );
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#35353c",endColorstr="#1d1d1f",GradientType=1);
+  background: #1d1d1f;
 }
 
 .home {
   background: rgb(53, 53, 60);
-  background: -moz-radial-gradient(
-    circle,
-    rgba(53, 53, 60, 1) 0%,
-    rgba(29, 29, 31, 1) 100%
-  );
-  background: -webkit-radial-gradient(
-    circle,
-    rgba(53, 53, 60, 1) 0%,
-    rgba(29, 29, 31, 1) 100%
-  );
-  background: radial-gradient(
-    circle,
-    rgba(53, 53, 60, 1) 0%,
-    rgba(29, 29, 31, 1) 100%
-  );
+  background: -moz-radial-gradient(circle, #35353c 0%, #1d1d1f 100%);
+  background: -webkit-radial-gradient(circle, #35353c 0%, #1d1d1f 100%);
+  background: radial-gradient(circle, #35353c 0%, #1d1d1f 100%);
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#35353c",endColorstr="#1d1d1f",GradientType=1);
 }
 
 .radius {
   border-radius: 65% 35% 36% 64% / 29% 31% 69% 71%;
+}
+
+.email-radius {
+  border-radius: 0.5rem 0 0 0.5rem;
+}
+.btn-radius {
+  border-radius: 0 0.5rem 0.5rem 0;
 }
 a {
   color: inherit;

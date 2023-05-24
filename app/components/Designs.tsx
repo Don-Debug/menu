@@ -14,7 +14,7 @@ export default function Designs() {
             You can choose one of our design templates for your menu
           </p>
 
-          <div className="my-8 w-[100%] mx-auto flex overflow-x-auto snap-x snap-mandatory vertical-sb py-4 gap-3">
+          <div className="my-8 w-[100%] mx-auto flex overflow-x-auto snap-x snap-mandatory vertical-sb py-8 gap-3">
             {desings.map((demo, index) => (
               <div
                 key={index}

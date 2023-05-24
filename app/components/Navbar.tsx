@@ -8,7 +8,7 @@ import logo from "@/public/logo.png";
 export default function Navbar() {
   const [toggle, setToggle] = useState(false);
   return (
-    <div className=" flex justify-between items-center md:px-[5rem] px-4 py-[1rem] my-shadow fixed top-0 left-0 w-full z-40 bg-[#3f3f3f]">
+    <div className=" flex justify-between items-center md:px-[5rem] px-4 py-[1rem] my-shadow fixed top-0 left-0 w-full z-50 bg-[#3f3f3f]">
       <Link
         href={`/`}
         draggable="false"
@@ -67,10 +67,10 @@ export default function Navbar() {
         <div
           className={`${
             !toggle ? " hidden" : " flex"
-          } py-6 px-2 absolute top-20 right-0 w-[100%] z-20 
+          } py-0 px-2 absolute top-20 right-0 w-[100%] z-20 
              bg-[#3f3f3f] flex items-center justify-center my-shadow`}
         >
-          <div className=" flex justify-center items-center flex-col gap-0 w-full px-2 py-8">
+          <div className=" flex justify-center items-center flex-col gap-0 w-full px-2 py-2">
             <a
               href={`/#about`}
               className="text-[1.2rem] text-white hover:bg-[#6f6f6f] w-full text-center py-4"

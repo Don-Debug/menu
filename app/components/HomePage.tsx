@@ -11,12 +11,13 @@ export default function HomePage() {
             <h1 className="sm:text-[2.5rem] text-[1.6rem] font-bold">
               This is the time for you to have your own digital menu
             </h1>
-            <Link
-              href={`/`}
+            <a
+              href={`#contact`}
+              draggable="false"
               className="px-[2rem] sm:py-[1rem] py-3 border-[2px] sm:border-[#ff5500] border-[#fff] text-[1rem] sm:text-[1.3rem] sm:text-[#ff5500] font-semibold uppercase rounded-lg mt-8 text-[#fff] cursor-pointer"
             >
               Contact Us
-            </Link>
+            </a>
           </div>
           <div className="md:w-[50%] w-[100%] relative">
             <div className="w-[30rem] h-[30rem] bg-[#ff5500] title-shadow radius object-contain pointer-events-none absolute z-[-1] bottom-0" />
