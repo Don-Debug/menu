@@ -16,9 +16,9 @@ export default function Home() {
         <div className="sm:h-[6rem] h-[5rem]" />
         <HomePage />
         <Features />
+        <Clients />
         <About />
         <Designs />
-        <Clients />
         <Footer />
       </div>
     </>

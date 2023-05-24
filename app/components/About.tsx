@@ -1,8 +1,8 @@
 export default function About() {
   return (
     <>
-      <div className="sm:p-[3rem] p-0 py-[3rem]">
-        <div className="relative sm:px-8 px-4 py-12 bg-[#4f4f4f] mt-[15rem] sm:rounded-lg rounded-none border border-[#6f6f6f]">
+      <div className="sm:p-[3rem] p-0 py-[3rem]" id="about">
+        <div className="relative sm:px-8 px-4 py-12 bg-[#2f2f2f] mt-[15rem] sm:rounded-lg rounded-none border border-[#4f4f4f]">
           <h1 className="absolute mt-[-6rem] ml-4 px-[2rem] py-[1rem] bg-[#ff5500] rounded-lg sm:text-[2rem] text-[1.5rem] font-bold title-shadow">
             About Us
           </h1>

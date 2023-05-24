@@ -9,7 +9,13 @@ export default function Navbar() {
   const [toggle, setToggle] = useState(false);
   return (
     <div className=" flex justify-between items-center md:px-[5rem] px-4 py-[1rem] my-shadow fixed top-0 left-0 w-full z-40 bg-[#3f3f3f]">
-      <Link href={`/`} draggable="false">
+      <Link
+        href={`/`}
+        draggable="false"
+        onClick={() => {
+          window.scrollTo(0, 0);
+        }}
+      >
         <div className=" flex sm:gap-[1rem] gap-2 items-center overflow-hidden">
           <Image
             src={logo}
@@ -66,7 +72,7 @@ export default function Navbar() {
         >
           <div className=" flex justify-center items-center flex-col gap-0 w-full px-2 py-8">
             <a
-              href={`/#rrethnesh`}
+              href={`/#about`}
               className="text-[1.2rem] text-white hover:bg-[#6f6f6f] w-full text-center py-4"
               onClick={() => {
                 setToggle(!toggle);
@@ -76,7 +82,7 @@ export default function Navbar() {
               About
             </a>
             <a
-              href={`/#galeri`}
+              href={`/#designs`}
               className="text-[1.2rem] text-white hover:bg-[#6f6f6f] w-full text-center py-4"
               onClick={() => {
                 setToggle(!toggle);
@@ -86,7 +92,7 @@ export default function Navbar() {
               Designs
             </a>
             <a
-              href={`/#vendodhja`}
+              href={`/#contact`}
               className="text-[1.2rem] text-white hover:bg-[#6f6f6f] w-full text-center py-4"
               onClick={() => {
                 setToggle(!toggle);
