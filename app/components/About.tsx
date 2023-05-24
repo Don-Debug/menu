@@ -27,9 +27,9 @@ export default function About() {
             customizable templates and themes. You have the freedom to choose a
             design that best represents your brand, creating a visually
             captivating menu that leaves a lasting impression on your patrons.
-            But it doesn't stop there. Our digital menu platform goes beyond a
-            mere display of dishes. We empower you to enhance the dining
-            experience by incorporating interactive features such as
+            But it doesn&apos;t stop there. Our digital menu platform goes
+            beyond a mere display of dishes. We empower you to enhance the
+            dining experience by incorporating interactive features such as
             high-resolution images, allergen information, nutritional details,
             and even pairing recommendations. You can truly engage your
             customers, enticing them to explore and indulge in your culinary
