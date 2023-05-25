@@ -13,24 +13,24 @@ export default function About() {
             <div className="lg:w-[60%] w-[100%] relative z-30">
               <p className="md:p-8 p-0">
                 Welcome to [Your Website Name]! We are passionate about helping
-                bars and restaurants showcase their menus in a digital format.
-                With our innovative platform, we provide a seamless experience
-                for both businesses and their valued customers. Our mission is
-                to revolutionize the way menus are presented, making it easier
-                than ever to explore the delectable offerings of your favorite
-                establishments. By utilizing our subdomain system, each venue
-                can have its own dedicated space to represent their unique menu
-                in a user-friendly and visually appealing manner. At [Your
+                bar&apos;s and restaurants showcase their menus in a digital
+                format. With our innovative platform, we provide a seamless
+                experience for both businesses and their valued customers. Our
+                mission is to revolutionize the way menus are presented, making
+                it easier than ever to explore the delectable offerings of your
+                favorite establishments. By utilizing our subdomain system, each
+                venue can have its own dedicated space to represent their unique
+                menu in a user-friendly and visually appealing manner. At [Your
                 Website Name], we prioritize simplicity and convenience. Our
                 platform offers features such as easy menu customization, smooth
                 navigation, and quick updates, ensuring that your menu is always
-                up to date and accessible. Whether you're a bustling bar or a
-                cozy restaurant, we've got you covered. Join us in embracing the
-                digital era and discover the modern way to showcase your
-                culinary delights. Start exploring the diverse menus on our
-                platform today and experience the convenience and excitement of
-                a digital dining adventure. We are committed to supporting
-                businesses in their quest to provide memorable dining
+                up to date and accessible. Whether you&apos;re a bustling bar or
+                a cozy restaurant, we&apos;ve got you covered. Join us in
+                embracing the digital era and discover the modern way to
+                showcase your culinary delights. Start exploring the diverse
+                menus on our platform today and experience the convenience and
+                excitement of a digital dining adventure. We are committed to
+                supporting businesses in their quest to provide memorable dining
                 experiences, and we look forward to being a part of your
                 journey. Cheers to great food and unforgettable moments!
               </p>
