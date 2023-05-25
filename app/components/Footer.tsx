@@ -39,7 +39,7 @@ export default function Footer() {
         </div>
         <div className="self-start bg-[#4f4f4f] border border-[#6f6f6f] shadow-2xl rounded-lg py-8 sm:px-8 px-4">
           <p className="pb-4 text-[#ff5500] font-light tracking-wider">
-            Leave us a message and we will reply as soon as possible
+            Leave us your email and we will reply as soon as possible
           </p>
 
           <form className="flex flex-row w-full">

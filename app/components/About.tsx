@@ -1,3 +1,6 @@
+import Image from "next/image";
+import ilustration from "@/public/ilustration.png";
+
 export default function About() {
   return (
     <>
@@ -6,47 +9,43 @@ export default function About() {
           <h1 className="absolute mt-[-6rem] ml-4 px-[2rem] py-[1rem] bg-[#ff5500] rounded-lg sm:text-[2rem] text-[1.5rem] font-bold title-shadow">
             About Us
           </h1>
-          <p className="md:p-8 p-0">
-            Welcome to [Your Website Name], your ultimate destination for
-            digital menus designed specifically for bar&apos;s and restaurants.
-            We understand the importance of creating an exceptional dining
-            experience, and our innovative platform empowers you to take your
-            menu presentation to the next level. At [Your Website Name], we are
-            passionate about helping establishments like yours showcase their
-            culinary creations in a modern and engaging way. Our user-friendly
-            system allows you to create personalized subdomains for each
-            restaurant or bar, providing a unique online space dedicated to
-            presenting your menu offerings. What sets us apart is our commitment
-            to delivering a seamless digital experience for both business owners
-            and customers. With our platform, you can effortlessly update and
-            customize your menu items, pricing, and descriptions. Say goodbye to
-            the hassle of constantly printing and distributing paper menus.
-            Embrace the future with our eco-friendly digital solution. We
-            understand that every establishment has its own style and
-            personality, which is why our platform offers a range of
-            customizable templates and themes. You have the freedom to choose a
-            design that best represents your brand, creating a visually
-            captivating menu that leaves a lasting impression on your patrons.
-            But it doesn&apos;t stop there. Our digital menu platform goes
-            beyond a mere display of dishes. We empower you to enhance the
-            dining experience by incorporating interactive features such as
-            high-resolution images, allergen information, nutritional details,
-            and even pairing recommendations. You can truly engage your
-            customers, enticing them to explore and indulge in your culinary
-            offerings. Our commitment to excellence extends to mobile
-            accessibility as well. With our responsive design, your digital menu
-            will seamlessly adapt to various screen sizes, ensuring that
-            customers can easily navigate and explore your offerings on their
-            smartphones or tablets. This flexibility allows for increased
-            customer engagement and convenience, further enhancing their dining
-            experience. At [Your Website Name], we believe in the power of
-            innovation and technology to transform the way restaurants and bars
-            present their menus. We are excited to be your partner on this
-            journey, helping you embrace the digital age and make a lasting
-            impression on your customers. Join us today and unlock the potential
-            of a captivating digital menu that leaves a lasting taste and
-            memorable experience for all who dine with you.
-          </p>
+          <div className="flex lg:flex-row flex-col justify-around items-center">
+            <div className="lg:w-[60%] w-[100%] relative z-30">
+              <p className="md:p-8 p-0">
+                Welcome to [Your Website Name]! We are passionate about helping
+                bars and restaurants showcase their menus in a digital format.
+                With our innovative platform, we provide a seamless experience
+                for both businesses and their valued customers. Our mission is
+                to revolutionize the way menus are presented, making it easier
+                than ever to explore the delectable offerings of your favorite
+                establishments. By utilizing our subdomain system, each venue
+                can have its own dedicated space to represent their unique menu
+                in a user-friendly and visually appealing manner. At [Your
+                Website Name], we prioritize simplicity and convenience. Our
+                platform offers features such as easy menu customization, smooth
+                navigation, and quick updates, ensuring that your menu is always
+                up to date and accessible. Whether you're a bustling bar or a
+                cozy restaurant, we've got you covered. Join us in embracing the
+                digital era and discover the modern way to showcase your
+                culinary delights. Start exploring the diverse menus on our
+                platform today and experience the convenience and excitement of
+                a digital dining adventure. We are committed to supporting
+                businesses in their quest to provide memorable dining
+                experiences, and we look forward to being a part of your
+                journey. Cheers to great food and unforgettable moments!
+              </p>
+            </div>
+            <div className="lg:w-[50%] w-auto relative self-center">
+              <div className="w-[30rem] h-[30rem] bg-[#ff5500] title-shadow about-radius object-contain pointer-events-none absolute z-[1] bottom-0 flex justify-center items-center" />
+              <Image
+                src={ilustration}
+                alt="man-using-digital-menu"
+                width={1000}
+                height={1000}
+                className="sm:w-[30rem] w-[40rem] z-10 relative sm:h-[30rem] h-[30rem] object-contain sm:scale-100 scale-110 pointer-events-none"
+              />
+            </div>
+          </div>
         </div>
       </div>
     </>
