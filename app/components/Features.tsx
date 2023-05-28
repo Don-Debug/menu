@@ -1,6 +1,7 @@
 import { FaMoneyBillWave } from "react-icons/fa";
 import { HiDeviceTablet } from "react-icons/hi";
 import { CgArrowsExchangeAlt } from "react-icons/cg";
+import { BsLayoutWtf } from "react-icons/bs";
 
 export default function Features() {
   return (
@@ -16,6 +17,12 @@ export default function Features() {
           <HiDeviceTablet color="#ff5500" size={35} />
           <p className="text-[1.3rem] font-semibold p-4 text-center">
             Very easy and accessable from every device
+          </p>
+        </div>
+        <div className="flex flex-col justify-center items-center w-[15rem] my-4">
+          <BsLayoutWtf color="#ff5500" size={30} />
+          <p className="text-[1.3rem] font-semibold p-4 text-center">
+            Choose a personalized design from our templates
           </p>
         </div>
         <div className="flex flex-col justify-center items-center w-[15rem] my-4">
